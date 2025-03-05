@@ -5,8 +5,12 @@
     - กระบวนการทางคณิตศาสตร์
 - ให้เขียน function ที่ทำงานตามที่โจทย์กำหนด
 */
-
+const calculate = (a, b, callback) => callback(a, b);
 // Start Coding Here
+const add = (a, b) => a + b;
+const subtract = (a, b) => a - b;
+const multiply = (a, b) => a * b;
+const divide = (a, b) => b === 0 ? "Cannot divide by zero" : a / b;
 
 
 // เมื่อ function นี้ทำงานจะเห็นผลลัพธ์ดังนี้
